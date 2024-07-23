@@ -22,7 +22,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class AppTest {
 	WebDriver driver;
 	WebDriverWait wait;
-	String url = "http://mint.local";
+	String url = "http://192.168.23.131";
 	String validEmail = "user@example.com";
 	String validPassword = "password1234";
 	String invalidEmail = "none@example.com";
